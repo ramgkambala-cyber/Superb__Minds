@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Superb Minds Academy</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#fdfcff,#f8fbff,#f5f7fa);
+    color:#444;
+    line-height:1.7;
+}
+
+header{
+    background:linear-gradient(135deg,#dbeafe,#ede9fe,#fdf2f8);
+    text-align:center;
+    padding:80px 20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+header h1{
+    font-size:3.5rem;
+    color:#4f46e5;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+    color:#666;
+}
+
+.badge{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 28px;
+    background:white;
+    border-radius:40px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+    color:#4f46e5;
+    font-weight:600;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+section{
+    margin:50px 0;
+}
+
+.card{
+    background:white;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.06);
+}
+
+.section-title{
+    text-align:center;
+    color:#4f46e5;
+    margin-bottom:25px;
+    font-size:2rem;
+}
+
+.about{
+    text-align:center;
+}
+
+.subject-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.subject{
+    background:linear-gradient(135deg,#eef2ff,#faf5ff);
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 6px 15px rgba(0,0,0,0.05);
+    transition:.3s;
+}
+
+.subject:hover{
+    transform:translateY(-5px);
+}
+
+.subject h3{
+    color:#5b21b6;
+}
+
+.highlight{
+    background:linear-gradient(135deg,#ecfeff,#eef2ff);
+    border-left:6px solid #6366f1;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.feature-box{
+    background:linear-gradient(135deg,#fefce8,#f0fdf4);
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.05);
+}
+
+.feature-box h3{
+    color:#4f46e5;
+    margin-bottom:10px;
+}
+
+.demo{
+    background:linear-gradient(135deg,#ecfdf5,#eff6ff);
+    text-align:center;
+}
+
+.fee-box{
+    background:linear-gradient(135deg,#f8fafc,#eef2ff);
+    text-align:center;
+}
+
+.fee{
+    font-size:1.8rem;
+    color:#6366f1;
+    font-weight:600;
+}
+
+.cta{
+    background:linear-gradient(135deg,#dbeafe,#f3e8ff);
+    text-align:center;
+    padding:45px;
+    border-radius:25px;
+}
+
+.cta h2{
+    color:#4338ca;
+    margin-bottom:15px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#f8fafc;
+    color:#666;
+    margin-top:40px;
+}
+
+@media(max-width:768px){
+    header h1{
+        font-size:2.4rem;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Superb Minds</h1>
+    <p>Online Tuition Academy for Classes 7 & 8</p>
+
+    <div class="badge">
+        Tutor : Dakshayani Guvvala
+    </div>
+</header>
+
+<div class="container">
+
+    <section>
+        <div class="card about">
+            <h2 class="section-title">Welcome to Superb Minds</h2>
+
+            <p>
+                Superb Minds is an online tuition academy specially designed
+                for students studying in Classes 7 and 8. Our aim is to help
+                students build strong concepts, improve academic performance,
+                and gain confidence in every subject.
+            </p>
+
+            <br>
+
+            <p>
+                Classes are conducted by <strong>Dakshayani Guvvala</strong>,
+                a dedicated and enthusiastic Class 8 student who is passionate
+                about helping younger students learn effectively.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Subjects Offered</h2>
+
+        <div class="subject-grid">
+            <div class="subject"><h3>Telugu</h3></div>
+            <div class="subject"><h3>Hindi</h3></div>
+            <div class="subject"><h3>English</h3></div>
+            <div class="subject"><h3>Mathematics</h3></div>
+            <div class="subject"><h3>Science</h3></div>
+            <div class="subject"><h3>Social Studies</h3></div>
+            <div class="subject"><h3>IIT Mathematics</h3></div>
+            <div class="subject"><h3>IIT Physics</h3></div>
+            <div class="subject"><h3>IIT Chemistry</h3></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="card highlight">
+            <h2 class="section-title">IIT Foundation Special Offer</h2>
+
+            <p>
+                Students who join the <strong>IIT Foundation Program</strong>
+                will receive Telugu, Hindi, English, Mathematics, Science and
+                Social Studies coaching without any additional tuition charges.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="card demo">
+            <h2 class="section-title">🎓 Free Demo Class</h2>
+
+            <p style="font-size:1.1rem;">
+                A <strong>FREE Demo Class</strong> will be provided for
+                <strong>1 Day</strong> so that students and parents can
+                understand the teaching methodology before joining.
+            </p>
+
+            <br>
+
+            <p>
+                Attend the demo session and experience how the online classes
+                are conducted.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2 class="section-title">Why Choose Superb Minds?</h2>
+
+        <div class="features">
+
+            <div class="feature-box">
+                <h3>📚 Quality Learning</h3>
+                <ul>
+                    <li>Concept-Based Teaching</li>
+                    <li>Regular Practice</li>
+                    <li>Simple Explanations</li>
+                </ul>
+            </div>
+
+            <div class="feature-box">
+                <h3>📝 Exam Preparation</h3>
+                <ul>
+                    <li>Revision Classes Before Exams</li>
+                    <li>One Week Special Revision</li>
+                    <li>Important Questions Practice</li>
+                </ul>
+            </div>
+
+            <div class="feature-box">
+                <h3>💻 Online Classes</h3>
+                <ul>
+                    <li>Learn From Home</li>
+                    <li>Interactive Sessions</li>
+                    <li>Flexible Learning</li>
+                </ul>
+            </div>
+
+            <div class="feature-box">
+                <h3>⭐ Additional Benefits</h3>
+                <ul>
+                    <li>1 Day Free Demo Class</li>
+                    <li>Attendance-Based Concession</li>
+                    <li>Friendly Learning Environment</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="card fee-box">
+            <h2 class="section-title">Course Fee</h2>
+
+            <p class="fee">₹1,500 / Month</p>
+
+            <p style="margin-top:12px;">
+                Concession may be provided for students who attend classes
+                regularly and maintain good attendance.
+            </p>
+        </div>
+    </section>
+
+<section>
+<div class="card fee-box">
+<h2 class="section-title"> details</h2>
+<p class="fee"> fee for : Telugu, Hindi, English, Maths, Science and Social are 150/-  for each</p>
+<p style="margin-top:13px;">
+no concession will be provided for these subjects.
+</p>
+</section>
+
+    <section>
+        <div class="cta">
+            <h2>Admissions Open Now</h2>
+
+            <p><strong>Classes Start:</strong> 1st July</p>
+            <p><strong>Admissions Close:</strong> 30th June</p>
+
+            <br>
+
+            <p>
+                Join Superb Minds and strengthen your academic foundation
+                through quality teaching, regular practice, revision sessions,
+                and IIT Foundation preparation.
+            </p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    © 2026 Superb Minds Academy | Online Tuition Classes for Class 7 & Class 8
+</footer>
+
+</body>
+</html>
